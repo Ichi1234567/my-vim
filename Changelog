@@ -1,0 +1,114 @@
+* 2013-08-28
+  - fix startup echo messages redirect
+  - prevent multiple after.vim loads
+
+* 2013-08-27
+  - writer.vim
+  - faster Esc into normal mode (ttimeoutlen=50)
+  - syntastic fixes (no re-check on exit, fancy marks)
+  - vim-dispatch (async external commands with output in vim)
+  - unite.vim (generic user-interface plugin)
+
+* 2013-07-09
+  - prompt before deleting bundles directory
+  - annotate bundles.vim
+  - blockle.vim plugin
+  - README updates
+
+* 2013-04-01
+  - elixir language support
+
+* 2013-03-21
+  - NERDTreeTabs plugin
+
+* 2012-01-24 (II)
+  - resurrect old vim-powerline project. The new one has installation issues
+    on OSX
+
+* 2012-01-24
+  - .vimrc.before and .vimrc.after support
+  - removed .vim_local and .local.vim support
+  - reprecated .local-before and .local-after
+  - updated repo for vim-slim plugin
+  - powerline upgraded to the new pythin based project. (the old one is
+    deprecated)
+
+* 2012-12-25
+  - 'switch' plugin
+
+* 2012-09-05
+  - tomorrow-theme
+  - changed yankring_history file location to ~/.backup/
+
+* 2012-08-15
+  - improved utf8 support (thanks to Arik Fraimovich)
+
+* 2012-08-04
+  - added .local-before.vim
+  - deprecated .local.vim. use .local-after.vim instead
+
+* 2012-08-02
+  - support for ~/.local-gui.vim
+  - removed default background and colorscheme settings
+    Those are highly personal and should go into ~/.local.vim and ~/.local-gui.vim
+
+* 2012-07-17
+  - forced space and tab settings for markdown and haml
+  - auto wrap for markdown on 80 chars
+
+* 2012-07-12
+  - Changed CtrlP mapping `,,` to use CtrlP instead of CtrlPMixed
+  - added `,l` mapping to CtrlPLine
+  - removed minibufexpl settings (plugin removed long ago)
+  - added `,b` mapping to CtrlPBuff
+
+* 2012-07-10
+  - CtrlP merged into master
+
+* 2012-07-05
+  - make CtrlP see files that are not yet in the git
+
+* 2012-07-04
+  - mappings for :diffupdate/put/get
+  - buttercream and colorzone themes
+  - renamed vundles.vim to bundles.vim
+  - %% mapping for command mode to expand to current file's directory
+  - Command-T replaced with CtrlP
+
+* 2012-07-01
+  - fixed missing space at the end of ,g and ,k maps
+  - mapped ,d to :diffupdate
+
+* 2012-06-24
+  - added mapping for :QA and :Qa to be same as :qa
+
+* 2012-06-19
+  - calendar.vim
+  - NrrwRgn plugin (Narrow Region)
+  - utl.vim plugin (universal text links)
+  - VimOrganizer plugin (emacs' org mode support)
+  - settings.vim merged into global.vim
+  - added after-plugins.vim to override plugin settings
+  - Gundo plugin
+
+* 2012-06-18
+  - support persistent undo
+  - OSX russian translit keyboard layout support
+  - READE table of contents
+
+* 2012-06-11
+  - attempt to support command-t install on non-OSX systems. trying to guess
+    ruby binary
+  - vim-slim plugin for Slim syntax support
+
+* 2012-06-07
+  - after.vim: reworked loading of bindings.vim after plugins.
+    local now also loaded after all the plugins
+  - deprecated ~/.vim_local
+  - new file ~/.local.vim
+  - macros.vim - a couple of useful macros
+  - added CHANGELOG ;)
+  - change command-t repo to github. original is down all the time
+    use 'make install' or remove bundle/command-t before you update
+  - use direct clone for vundle instead of submodules.
+    latest git submodules cupport is incompatible with vundle
