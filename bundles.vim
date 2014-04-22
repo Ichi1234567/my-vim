@@ -30,11 +30,12 @@ Bundle 'tomtom/tlib_vim'
 " multiple cursor operation
 "Bundle 'terryma/vim-multiple-cursors'
 " search plugin
-Bundle 'osyo-manga/vim-anzu'
+"Bundle 'osyo-manga/vim-anzu'
 
 
 " vertical alignment tool
 Bundle 'tsaleh/vim-align'
+Bundle 'Align'
 " vertical indent
 "Bundle 'Yggdroot/indentLine'
 " url based hyperlinks for text files
