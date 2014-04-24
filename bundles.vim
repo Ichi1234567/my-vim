@@ -104,12 +104,14 @@ Bundle 'ruby-matchit'
 
 " manipulation of surraunding parens, quotes, etc.
 Bundle 'tpope/vim-surround'
-" easymotion
-Bundle "Lokaltog/vim-easymotion"
+" related easymotion
+Bundle 't9md/vim-smalls'
 " switch
-Bundle "AndrewRadev/switch.vim"
+Bundle 'AndrewRadev/switch.vim'
 " end certain structures automatically, e.g. begin/end etc.
 Bundle 'tpope/vim-endwise'
+" visual-block increment
+Bundle 'triglav/vim-visual-increment'
 
 " ruby
 " rails support

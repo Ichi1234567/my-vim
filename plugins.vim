@@ -188,8 +188,9 @@ let g:mta_filetypes = {
     \}
 
 """""""""""""""""""""""""""""
-" set easymotion
-let g:EasyMotion_leader_key = '<Space>'
+" set vim-smalls
+nmap s <Plug>(smalls)
+vmap s <Plug>(smalls)
 
 """""""""""""""""""""""""""""
 " set switch
@@ -229,6 +230,10 @@ let g:switch_custom_definitions =
       \     },
       \   }
       \ ]
+
+"""""""""""""""""""""""""""""
+" vim-visual-increment
+set nrformats=alpha,octal,hex
 
 """""""""""""""""""""""""""""
 " blockle
