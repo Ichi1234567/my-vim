@@ -14,6 +14,9 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'nanotech/jellybeans.vim'
 
+" local vimrc
+Bundle 'embear/vim-localvimrc'
+
 
 " file tree
 Bundle 'scrooloose/nerdtree'
@@ -128,3 +131,7 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'apidock.vim'
 " toggle ruby blocks style
 Bundle 'vim-scripts/blockle.vim'
+
+
+" slide show
+Bundle 'othree/vroom-syntax.vim'

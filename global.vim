@@ -31,6 +31,10 @@ if has('multi_byte')
   set encoding=utf-8
 end
 
+if filereadable('.vimrc')
+  so .vimrc
+endif
+
 " presentation settings
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers
