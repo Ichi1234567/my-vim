@@ -195,7 +195,7 @@ vmap s <Plug>(smalls)
 """""""""""""""""""""""""""""
 " set switch
 
-nmap <s-h> :Switch<CR>
+nmap <s-S> :Switch<CR>
     " making some of the switches defined for ruby work in HAML files
 autocmd FileType haml let b:switch_definitions =
       \ [
