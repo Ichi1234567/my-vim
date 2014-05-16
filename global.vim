@@ -18,6 +18,7 @@ au BufRead,BufNewFile *.hbs set syntax=handlebars | retab
 "au BufRead,BufNewFile /usr/local/etc/nginx/* set ft=nginx
 "au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 au BufNewFile,BufRead *.gradle setf groovy
+au BufRead,BufNewFile *.vroom set ft=vroom
 
 " prevent vim from adding that stupid empty line at the end of every file
 set noeol
@@ -30,10 +31,6 @@ if has('multi_byte')
   scriptencoding utf-8
   set encoding=utf-8
 end
-
-if filereadable('.vimrc')
-  so .vimrc
-endif
 
 " presentation settings
 set number              " precede each line with its line number
