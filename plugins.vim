@@ -92,6 +92,15 @@ let g:gundo_close_on_revert = 1
 
 
 """""""""""""""""""""""""""""
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
+
+
+"""""""""""""""""""""""""""""
 " Utl.vim
 if has("mac")
   let g:utl_cfg_hdl_scm_http_system = "!open '%u'"

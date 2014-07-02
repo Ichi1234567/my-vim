@@ -37,8 +37,7 @@ Bundle 'tomtom/tlib_vim'
 
 
 " vertical alignment tool
-Bundle 'tsaleh/vim-align'
-Bundle 'Align'
+Bundle 'junegunn/vim-easy-align'
 " vertical indent
 "Bundle 'Yggdroot/indentLine'
 " url based hyperlinks for text files
