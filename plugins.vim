@@ -11,10 +11,10 @@ nmap <C-P> :NERDTreeTabsToggle<CR>
 " ,p to show current file in the tree
 nmap <leader>p :NERDTreeFind<CR>
 
-" nerdcommenter
+" tcomment_vim
 " ,/ to invert comment on the current line/selection
-nmap <leader>/ :call NERDComment(0, "invert")<cr>
-vmap <leader>/ :call NERDComment(0, "invert")<cr>
+nmap <leader>/ gcc
+vmap <leader>/ gcc
 
 
 """""""""""""""""""""""""""""
@@ -120,12 +120,6 @@ let g:Powerline_symbols='fancy'
 """""""""""""""""""""""""""""
 "pangloss/vim-javascript
 let javascript_enable_domhtmlcss = 1
-
-"""""""""""""""""""""""""""""
-" nerdcommenter
-" ,/ to invert comment on the current line/selection
-nmap <leader>/ :call NERDComment(0, "toggle")<cr>
-vmap <leader>/ :call NERDComment(0, "toggle")<cr>
 
 """""""""""""""""""""""""""""
 " delimitMate

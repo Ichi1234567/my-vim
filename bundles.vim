@@ -81,7 +81,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'ingydotnet/yaml-vim'
 " syntax plugin
 " commenting
-Bundle 'scrooloose/nerdcommenter'
+Bundle 'tomtom/tcomment_vim'
 " automatic closing of quotes, parenthesis, brackets, etc.
 Bundle 'Raimondi/delimitMate'
 " syntax checking on save
