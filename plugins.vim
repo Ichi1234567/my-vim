@@ -14,7 +14,7 @@ nmap <leader>p :NERDTreeFind<CR>
 " tcomment_vim
 " ,/ to invert comment on the current line/selection
 nmap <leader>/ gcc
-vmap <leader>/ gcc
+vmap <leader>/ gc
 
 
 """""""""""""""""""""""""""""
