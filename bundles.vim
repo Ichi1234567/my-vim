@@ -46,7 +46,7 @@ Bundle 'utl.vim'
 Bundle 'austintaylor/vim-indentobject'
 Bundle 'lukaszb/vim-web-indent'
 " status block
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'itchyny/lightline.vim'
 
 
 " git support
