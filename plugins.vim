@@ -42,9 +42,6 @@ let g:ctrlp_max_height = 40
 " jump to buffer in the same tab if already open
 let g:ctrlp_switch_buffer = 1
 
-" if in git repo - use git file listing command, should be faster
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod']
-
 " open multiple files with <c-z> to mark and <c-o> to open. v - opening in
 " vertical splits; j - jump to first open buffer; r - open first in current buffer
 let g:ctrlp_open_multiple_files = 'vjr'
@@ -252,6 +249,10 @@ let g:mta_filetypes = {
     \ 'html.erb' : 1,
     \ 'html.eruby' : 1,
     \}
+
+"""""""""""""""""""""""""""""
+" set ag
+nmap <leader>a :Ag<space>
 
 """""""""""""""""""""""""""""
 " set vim-smalls

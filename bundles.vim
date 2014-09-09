@@ -99,11 +99,14 @@ Bundle 'pbrisbin/html-template-syntax'
 Bundle 'Valloric/MatchTagAlways'
 Bundle 'ruby-matchit'
 
+" about search
+Bundle 'rking/ag.vim'
+" related easymotion
+Bundle 't9md/vim-smalls'
+
 
 " manipulation of surraunding parens, quotes, etc.
 Bundle 'tpope/vim-surround'
-" related easymotion
-Bundle 't9md/vim-smalls'
 " switch
 Bundle 'AndrewRadev/switch.vim'
 " end certain structures automatically, e.g. begin/end etc.
