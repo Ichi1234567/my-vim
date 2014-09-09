@@ -13,6 +13,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'w0ng/vim-hybrid'
 
 " local vimrc
 Bundle 'embear/vim-localvimrc'
@@ -32,15 +33,10 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 " multiple cursor operation
 "Bundle 'terryma/vim-multiple-cursors'
-" search plugin
-"Bundle 'osyo-manga/vim-anzu'
 
 
 " vertical alignment tool
 Bundle 'junegunn/vim-easy-align'
-" vertical indent
-"Bundle 'Yggdroot/indentLine'
-" url based hyperlinks for text files
 Bundle 'utl.vim'
 " text object based on indent level (ai, ii)
 Bundle 'austintaylor/vim-indentobject'

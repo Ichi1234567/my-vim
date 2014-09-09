@@ -13,3 +13,9 @@ if has('gui_running')
     source ~/.gvimrc.before
   endif
 endif
+
+" cross
+set cursorline
+set cursorcolumn
+hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
+hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white

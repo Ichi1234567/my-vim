@@ -121,12 +121,6 @@ runtime macros/matchit.vim
 let mapleader = ","
 let maplocalleader = "\\"
 
-" cross
-set cursorline
-set cursorcolumn
-hi CursorLine   cterm=NONE ctermbg=lightgray ctermfg=white guibg=darkgray guifg=white
-hi CursorColumn cterm=NONE ctermbg=lightgray ctermfg=white guibg=darkgray guifg=white
-
 " CTRL-c is copy (in visual mode only)
 " CTRL-x is cut (in visual mode only)
 "vmap <C-x> :!pbcopy<CR>

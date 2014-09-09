@@ -7,9 +7,9 @@ colorscheme jellybeans
 """""""""""""""""""""""""""""
 " nerdtree
 " Ctrl-P to Display the file browser tree
-nmap <C-P> :NERDTreeTabsToggle<CR>
+nmap <C-I> :NERDTreeTabsToggle<CR>
 " ,p to show current file in the tree
-nmap <leader>p :NERDTreeFind<CR>
+nmap <leader>i :NERDTreeFind<CR>
 
 " tcomment_vim
 " ,/ to invert comment on the current line/selection
@@ -19,7 +19,7 @@ vmap <leader>/ gc
 
 """""""""""""""""""""""""""""
 " ctrlp
-let g:ctrlp_map = '<leader>,'
+let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
