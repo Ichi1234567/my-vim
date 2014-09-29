@@ -6,9 +6,9 @@ colorscheme jellybeans
 
 """""""""""""""""""""""""""""
 " nerdtree
-" Ctrl-P to Display the file browser tree
+" Ctrl-I to Display the file browser tree
 nmap <C-I> :NERDTreeTabsToggle<CR>
-" ,p to show current file in the tree
+" ,i to show current file in the tree
 nmap <leader>i :NERDTreeFind<CR>
 
 " tcomment_vim
