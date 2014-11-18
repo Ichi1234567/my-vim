@@ -19,6 +19,7 @@ au BufRead,BufNewFile *.hbs set syntax=handlebars | retab
 "au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 au BufNewFile,BufRead *.gradle setf groovy
 au BufRead,BufNewFile *.vroom set ft=vroom
+au BufNewFile *.cjsx 0r $HOME/.vim/templates/cjsx
 
 " prevent vim from adding that stupid empty line at the end of every file
 set noeol
