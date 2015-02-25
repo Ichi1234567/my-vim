@@ -95,6 +95,7 @@ Bundle 'L9'
 Bundle 'othree/vim-autocomplpop'
 Bundle 'othree/html5.vim'
 Bundle 'othree/javascript-libraries-syntax.vim'
+Bundle 'myhere/vim-nodejs-complete'
 " for html
 Bundle 'pbrisbin/html-template-syntax'
 Bundle 'Valloric/MatchTagAlways'
