@@ -3,9 +3,9 @@ ichi-vim
 
 From your homedirectory (on Linux/Mac OSX):
 
-* `git clone git://github.com/Ichi1234567/ichi-vim.git`
-* `ln -sfn ichi-vim .vim`
-* `ln -sfn ichi-vim/vimrc .vimrc`
+* `git clone git://github.com/Ichi1234567/my-vim.git`
+* `ln -sfn my-vim .vim`
+* `ln -sfn my-vim/vimrc .vimrc`
 * `cd .vim; make install`
 
 
