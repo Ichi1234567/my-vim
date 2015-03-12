@@ -40,7 +40,6 @@ Bundle 'junegunn/vim-easy-align'
 Bundle 'utl.vim'
 " text object based on indent level (ai, ii)
 Bundle 'austintaylor/vim-indentobject'
-Bundle 'lukaszb/vim-web-indent'
 " status block
 Bundle 'itchyny/lightline.vim'
 
@@ -68,9 +67,9 @@ Bundle 'juvenn/mustache.vim'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'vitaly/vim-syntastic-coffee'
+Bundle 'pangloss/vim-javascript'
 Bundle 'mtscout6/vim-cjsx'
 Bundle 'mxw/vim-jsx'
-Bundle 'pangloss/vim-javascript'
 "Bundle 'vim-scripts/jade.vim'
 Bundle 'wavded/vim-stylus'
 Bundle 'VimClojure'

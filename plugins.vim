@@ -182,6 +182,10 @@ endfunction
 let javascript_enable_domhtmlcss = 1
 
 """""""""""""""""""""""""""""
+" vim-jsx
+let g:jsx_pragma_required = 1
+
+"""""""""""""""""""""""""""""
 " delimitMate
 let g:delimitMate_expand_space = 1 " Turns on/off the expansion of <Space>
 let g:delimitMate_expand_cr = 1    " Turns on/off the expansion of <CR>
