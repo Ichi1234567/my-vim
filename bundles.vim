@@ -29,8 +29,10 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'YankRing.vim'
 " visual undo tree
 Bundle 'sjl/gundo.vim'
+" snippets dependancy
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+"""""""""'
 " multiple cursor operation
 "Bundle 'terryma/vim-multiple-cursors'
 
@@ -86,7 +88,6 @@ Bundle 'scrooloose/syntastic'
 " rainbow parentheses
 Bundle 'rainbow_parentheses.vim'
 " TextMate-style snippets
-"Bundle 'msanders/snipmate.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
@@ -97,6 +98,8 @@ Bundle 'othree/vim-autocomplpop'
 Bundle 'othree/html5.vim'
 Bundle 'othree/javascript-libraries-syntax.vim'
 Bundle 'myhere/vim-nodejs-complete'
+" for json
+Bundle 'Quramy/vison'
 " for html
 Bundle 'pbrisbin/html-template-syntax'
 Bundle 'Valloric/MatchTagAlways'
