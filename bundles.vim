@@ -8,10 +8,7 @@ Bundle 'gmarik/vundle'
 
 
 " color themes
-Bundle 'endel/vim-github-colorscheme'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-vividchalk'
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'w0ng/vim-hybrid'
 
@@ -25,6 +22,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 " fuzzy file open
 Bundle 'kien/ctrlp.vim'
+" Bundle 'Shougo/unite.vim'
 " yank history
 Bundle 'YankRing.vim'
 " visual undo tree
@@ -59,6 +57,7 @@ Bundle 'airblade/vim-gitgutter'
 
 
 " syntax support
+Bundle 'ntpeters/vim-better-whitespace'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'Puppet-Syntax-Highlighting'
 Bundle 'JSON.vim'
