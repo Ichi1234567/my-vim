@@ -10,7 +10,7 @@ Bundle 'gmarik/vundle'
 " color themes
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'nanotech/jellybeans.vim'
-Bundle 'w0ng/vim-hybrid'
+Bundle 'evgenyzinoviev/vim-vendetta'
 
 " local vimrc
 Bundle 'embear/vim-localvimrc'
@@ -69,6 +69,7 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'vitaly/vim-syntastic-coffee'
 Bundle 'pangloss/vim-javascript'
+Bundle 'othree/yajs.vim'
 Bundle 'mtscout6/vim-cjsx'
 Bundle 'mxw/vim-jsx'
 "Bundle 'vim-scripts/jade.vim'
@@ -134,7 +135,3 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'apidock.vim'
 " toggle ruby blocks style
 Bundle 'vim-scripts/blockle.vim'
-
-
-" slide show
-Bundle 'othree/vroom-syntax.vim'
