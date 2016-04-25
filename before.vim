@@ -19,3 +19,6 @@ set cursorline
 set cursorcolumn
 hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
 hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
+
+set colorcolumn=90
+hi colorcolumn ctermbg=brown

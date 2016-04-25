@@ -21,7 +21,7 @@ Bundle 'scrooloose/nerdtree'
 " file tree and tabs interaction
 Bundle 'jistr/vim-nerdtree-tabs'
 " fuzzy file open
-Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 " Bundle 'Shougo/unite.vim'
 " yank history
 Bundle 'YankRing.vim'
