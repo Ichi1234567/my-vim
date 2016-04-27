@@ -20,5 +20,7 @@ set cursorcolumn
 hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
 hi CursorColumn cterm=NONE ctermbg=darkgray ctermfg=white guibg=darkgray guifg=white
 
-set colorcolumn=90
-hi colorcolumn ctermbg=brown
+hi OverLength ctermbg=lightyellow ctermfg=black
+match OverLength /\%91v.\+/
+set cc=91
+hi colorcolumn ctermbg=lightyellow ctermfg=black
