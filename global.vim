@@ -19,7 +19,6 @@ au BufRead,BufNewFile *.hbs set syntax=handlebars | retab
 "au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 au BufNewFile,BufRead *.gradle setf groovy
 au BufRead,BufNewFile *.vroom set ft=vroom
-au BufNewFile *.cjsx 0r $HOME/.vim/templates/cjsx
 au BufNewFile *.jsx 0r $HOME/.vim/templates/jsx
 au BufNewFile *.js 0r $HOME/.vim/templates/js
 
