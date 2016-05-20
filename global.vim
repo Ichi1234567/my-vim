@@ -35,6 +35,9 @@ if has('multi_byte')
   set encoding=utf-8
 end
 
+" clipboard
+set clipboard=unnamed
+
 " presentation settings
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers

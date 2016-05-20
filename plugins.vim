@@ -264,6 +264,10 @@ nmap s <Plug>(smalls)
 vmap s <Plug>(smalls)
 
 """""""""""""""""""""""""""""
+" set tagbar
+nmap tt :TagbarToggle<CR>
+
+"""""""""""""""""""""""""""""
 " set switch
 
 nmap <s-S> :Switch<CR>

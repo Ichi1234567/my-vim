@@ -72,6 +72,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'othree/yajs.vim'
 Bundle 'mtscout6/vim-cjsx'
 Bundle 'mxw/vim-jsx'
+Bundle 'jsx/jsx.vim'
 "Bundle 'vim-scripts/jade.vim'
 Bundle 'wavded/vim-stylus'
 Bundle 'VimClojure'
@@ -109,6 +110,9 @@ Bundle 'ruby-matchit'
 Bundle 'rking/ag.vim'
 " related easymotion
 Bundle 't9md/vim-smalls'
+" tagbar
+" brew install ctags-exuberant
+Bundle 'majutsushi/tagbar'
 
 
 " manipulation of surraunding parens, quotes, etc.
