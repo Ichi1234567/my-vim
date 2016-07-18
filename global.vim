@@ -142,3 +142,9 @@ vmap <C-c> :w !pbcopy<CR><CR>
 
 " set for html
 let html_no_rendering=1
+
+" set  exclude
+set complete-=i
+set include="#include \\(<boost\\)\\@!"
+set wildignore+=.DS_Store,.git,.hg,.svn,.rbenv,.nvm
+set wildignore+=*.swp,*.tmp

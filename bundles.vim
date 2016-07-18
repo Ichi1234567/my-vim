@@ -85,6 +85,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'Raimondi/delimitMate'
 " syntax checking on save
 Bundle 'scrooloose/syntastic'
+" Bundle 'eslint/eslint'
 " rainbow parentheses
 Bundle 'rainbow_parentheses.vim'
 " TextMate-style snippets
@@ -109,6 +110,7 @@ Bundle 'ruby-matchit'
 Bundle 'rking/ag.vim'
 " related easymotion
 Bundle 't9md/vim-smalls'
+" Bundle 'wincent/ferret'
 " tagbar
 " brew install ctags-exuberant
 Bundle 'majutsushi/tagbar'

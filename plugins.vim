@@ -194,6 +194,7 @@ let g:delimitMate_expand_cr = 1    " Turns on/off the expansion of <CR>
 """""""""""""""""""""""""""""
 " syntastic
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exec = 'eslint'
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=2
 let g:syntastic_check_on_wq=0
@@ -240,7 +241,6 @@ let g:acp_enableAtStartup = 1
 " let g:acp_mappingDriven = 1
 let g:acp_completeOption = '.,w,b,u,t,i,k'
 " let g:acp_behaviorSnipmateLength = 0
- 
 let g:acp_behaviorUserDefinedMeets = 'acp#meetsForKeyword'
 let g:acp_behaviorUserDefinedFunction = 'syntaxcomplete#Complete'
 " }}}
