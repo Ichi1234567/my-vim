@@ -14,16 +14,16 @@ delete:
 	rm -rf bundle
 
 install-vundle:
-	test -d bundle/vundle || (mkdir -p bundle && cd bundle && git clone https://github.com/gmarik/vundle.git)
+	test -d bundle/Vundle.vim || (mkdir -p bundle && cd bundle && git clone https://github.com/VundleVim/Vundle.vim.git)
 
 bundles:
-	vim -u ./bundles.vim +BundleClean! +BundleInstall
+	vim -u ./bundles.vim +PluginClean! +PluginInstall
 
 cleanup-bundles:
 	ls bundle | while read b;do (cd bundle/$$b && git clean -f);done
 
 upgrade-bundles: cleanup-bundles
-	vim -u ./bundles.vim +BundleClean! +BundleInstall!
+	vim -u ./bundles.vim +PluginClean! +PluginInstall!
 
 # only run compilation if bundle installed
 compile-command-t:

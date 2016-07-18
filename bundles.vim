@@ -1,142 +1,146 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 " plugin management
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 
 " color themes
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'evgenyzinoviev/vim-vendetta'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'evgenyzinoviev/vim-vendetta'
 
 " local vimrc
-Bundle 'embear/vim-localvimrc'
+Plugin 'embear/vim-localvimrc'
 
 
 " file tree
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 " file tree and tabs interaction
-Bundle 'jistr/vim-nerdtree-tabs'
+Plugin 'jistr/vim-nerdtree-tabs'
 " fuzzy file open
-Bundle 'ctrlpvim/ctrlp.vim'
-" Bundle 'Shougo/unite.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'Shougo/unite.vim'
 " yank history
-Bundle 'YankRing.vim'
+Plugin 'YankRing.vim'
 " visual undo tree
-Bundle 'sjl/gundo.vim'
+Plugin 'sjl/gundo.vim'
 " snippets dependancy
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
 """""""""'
 " multiple cursor operation
-"Bundle 'terryma/vim-multiple-cursors'
+"Plugin 'terryma/vim-multiple-cursors'
 
 
 " vertical alignment tool
-Bundle 'junegunn/vim-easy-align'
-Bundle 'utl.vim'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'utl.vim'
 " text object based on indent level (ai, ii)
-Bundle 'austintaylor/vim-indentobject'
+Plugin 'austintaylor/vim-indentobject'
 " status block
-Bundle 'itchyny/lightline.vim'
+Plugin 'itchyny/lightline.vim'
 
 
 " git support
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 " hide .gitignore-d files from vim
-Bundle 'vitaly/vim-gitignore'
+Plugin 'vitaly/vim-gitignore'
 " Github's gist support
-Bundle 'mattn/gist-vim'
+Plugin 'mattn/gist-vim'
 " plugin for resolving three-way merge conflicts
-Bundle 'sjl/threesome.vim'
+Plugin 'sjl/threesome.vim'
 " git diff
-Bundle 'airblade/vim-gitgutter'
+Plugin 'airblade/vim-gitgutter'
 
 
 " syntax support
-Bundle 'ntpeters/vim-better-whitespace'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'Puppet-Syntax-Highlighting'
-Bundle 'JSON.vim'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-markdown'
-Bundle 'nono/vim-handlebars'
-Bundle 'juvenn/mustache.vim'
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'vitaly/vim-syntastic-coffee'
-Bundle 'pangloss/vim-javascript'
-Bundle 'othree/yajs.vim'
-Bundle 'mtscout6/vim-cjsx'
-Bundle 'mxw/vim-jsx'
-"Bundle 'vim-scripts/jade.vim'
-Bundle 'wavded/vim-stylus'
-Bundle 'VimClojure'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'Puppet-Syntax-Highlighting'
+Plugin 'JSON.vim'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-markdown'
+Plugin 'nono/vim-handlebars'
+Plugin 'juvenn/mustache.vim'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'vitaly/vim-syntastic-coffee'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/yajs.vim'
+Plugin 'mtscout6/vim-cjsx'
+Plugin 'mxw/vim-jsx'
+"Plugin 'vim-scripts/jade.vim'
+Plugin 'wavded/vim-stylus'
+Plugin 'VimClojure'
 " Support for user-defined text objects
-Bundle 'kana/vim-textobj-user'
-Bundle 'ingydotnet/yaml-vim'
+Plugin 'kana/vim-textobj-user'
+Plugin 'ingydotnet/yaml-vim'
 " syntax plugin
 " commenting
-Bundle 'tomtom/tcomment_vim'
+Plugin 'tomtom/tcomment_vim'
 " automatic closing of quotes, parenthesis, brackets, etc.
-Bundle 'Raimondi/delimitMate'
+Plugin 'Raimondi/delimitMate'
 " syntax checking on save
-Bundle 'scrooloose/syntastic'
-" Bundle 'eslint/eslint'
+Plugin 'scrooloose/syntastic'
+" Plugin 'eslint/eslint'
 " rainbow parentheses
-Bundle 'rainbow_parentheses.vim'
+Plugin 'rainbow_parentheses.vim'
 " TextMate-style snippets
-Bundle 'mattn/emmet-vim'
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/vim-snippets'
-Bundle 'isRuslan/vim-es6-snippets'
+Plugin 'mattn/emmet-vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'isRuslan/vim-es6-snippets'
 " autocomplete
-Bundle 'L9'
-Bundle 'othree/vim-autocomplpop'
-Bundle 'othree/html5.vim'
-Bundle 'othree/javascript-libraries-syntax.vim'
-Bundle 'myhere/vim-nodejs-complete'
+Plugin 'L9'
+Plugin 'othree/vim-autocomplpop'
+Plugin 'othree/html5.vim'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'myhere/vim-nodejs-complete'
 " for json
-Bundle 'Quramy/vison'
+Plugin 'Quramy/vison'
 " for html
-Bundle 'pbrisbin/html-template-syntax'
-Bundle 'Valloric/MatchTagAlways'
-Bundle 'ruby-matchit'
+Plugin 'pbrisbin/html-template-syntax'
+Plugin 'Valloric/MatchTagAlways'
+Plugin 'ruby-matchit'
 
 " about search
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 " related easymotion
-Bundle 't9md/vim-smalls'
-" Bundle 'wincent/ferret'
+Plugin 't9md/vim-smalls'
+" Plugin 'wincent/ferret'
 " tagbar
 " brew install ctags-exuberant
-Bundle 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 
 
 " manipulation of surraunding parens, quotes, etc.
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
 " switch
-Bundle 'AndrewRadev/switch.vim'
+Plugin 'AndrewRadev/switch.vim'
 " end certain structures automatically, e.g. begin/end etc.
-Bundle 'tpope/vim-endwise'
+Plugin 'tpope/vim-endwise'
 " visual-block increment
-Bundle 'triglav/vim-visual-increment'
+Plugin 'triglav/vim-visual-increment'
 
 " ruby
 " rails support
-Bundle 'tpope/vim-rails'
+Plugin 'tpope/vim-rails'
 " bundler integration (e.g. :Bopen)
-Bundle 'tpope/vim-bundler'
+Plugin 'tpope/vim-bundler'
 " rake integration
-Bundle 'tpope/vim-rake'
+Plugin 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
-Bundle 'nelstrom/vim-textobj-rubyblock'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
-Bundle 'ecomba/vim-ruby-refactoring'
+Plugin 'ecomba/vim-ruby-refactoring'
 " apidock.com docs integration
-Bundle 'apidock.vim'
+Plugin 'apidock.vim'
 " toggle ruby blocks style
-Bundle 'vim-scripts/blockle.vim'
+Plugin 'vim-scripts/blockle.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
