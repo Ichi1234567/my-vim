@@ -7,10 +7,15 @@ colorscheme vendetta
 """""""""""""""""""""""""""""
 " nerdtree
 " Ctrl-I to Display the file browser tree
-nmap <C-I> :NERDTreeTabsToggle<CR>
+" nmap <C-I> :NERDTreeTabsToggle<CR>
 " ,i to show current file in the tree
 nmap <leader>i :NERDTreeFind<CR>
+" replace nerdtree
+" let g:netrw_winsize=20
+" let g:netrw_liststyle=3
+" nmap <leader>i :Lexplore<cr>
 
+"""""""""""""""""""""""""""""
 " tcomment_vim
 " ,/ to invert comment on the current line/selection
 nmap <leader>/ gcc
