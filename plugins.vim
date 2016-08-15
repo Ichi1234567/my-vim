@@ -26,6 +26,7 @@ vmap <leader>/ gc
 " ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_types = ['fil', 'buf', 'mru']
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
 nmap <leader>l :CtrlPLine<cr>
