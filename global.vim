@@ -40,6 +40,7 @@ set clipboard=unnamed
 " presentation settings
 set number              " precede each line with its line number
 set numberwidth=3       " number of culumns for line numbers
+set foldmethod=indent   " set fold
 set textwidth=0         " Do not wrap words (insert)
 "set nowrap             " Do not wrap words (view)
 set wrap                " wrap words (view)
@@ -72,7 +73,7 @@ set autoread            " automatically read file that has been changed on disk 
                         " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 set guioptions-=T       " disable toolbar"
-set completeopt=menuone,preview
+set completeopt=longest,menuone
 let bash_is_sh=1        " syntax shell files as bash scripts
 set cinoptions=:0,(s,u0,U1,g0,t0 " some indentation options ':h cinoptions' for details
 set modelines=5         " number of lines to check for vim: directives at the start/end of file
