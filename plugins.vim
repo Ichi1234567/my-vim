@@ -7,10 +7,10 @@ colorscheme vendetta
 """""""""""""""""""""""""""""
 " nerdtree
 " Ctrl-I to Display the file browser tree
-" nmap <C-I> :NERDTreeTabsToggle<CR>
+nmap <C-I> :NERDTreeTabsToggle<CR>
 " ,i to show current file in the tree
 nmap <leader>i :NERDTreeFind<CR>
-" replace nerdtree
+" may replace nerdtree
 " let g:netrw_winsize=20
 " let g:netrw_liststyle=3
 " nmap <leader>i :Lexplore<cr>
@@ -53,6 +53,9 @@ let g:ctrlp_switch_buffer = 1
 let g:ctrlp_open_multiple_files = 'vjr'
 
 let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
+
+" speed up ctrlp by ignore about git
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 """""""""""""""""""""""""""""
 " set yankring
