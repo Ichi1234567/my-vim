@@ -88,6 +88,9 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'Raimondi/delimitMate'
 " syntax checking on save
 Plugin 'scrooloose/syntastic'
+" typescript
+Plugin 'leafgarland/typescript-vim'
+Plugin 'quramy/tsuquyomi'
 " Plugin 'eslint/eslint'
 " rainbow parentheses
 Plugin 'rainbow_parentheses.vim'

@@ -10,17 +10,18 @@ au BufRead,BufNewFile *.html.erb set ft=html.eruby
 au BufRead,BufNewFile *.less set ft=less
 au BufRead,BufNewFile *.tpl set ft=html
 au BufRead,BufNewFile *.xsl set ft=html
-au BufWinEnter,BufNewFile *_spec.rb set ft=ruby.rspec
-au BufRead,BufNewFile *.fdoc set syntax=yaml
+" au BufWinEnter,BufNewFile *_spec.rb set ft=ruby.rspec
+" au BufRead,BufNewFile *.fdoc set syntax=yaml
 au BufRead,BufNewFile *.json set syntax=json
-au BufRead,BufNewFile *.hbs set syntax=handlebars | retab
+au FileType typescript :set makeprg=tsc
+" au BufRead,BufNewFile *.hbs set syntax=handlebars | retab
 "au BufRead,BufNewFile *.n3 set ft=n3
 "au BufRead,BufNewFile /usr/local/etc/nginx/* set ft=nginx
 "au BufRead,BufNewFile /etc/nginx/* set ft=nginx
-au BufNewFile,BufRead *.gradle setf groovy
-au BufRead,BufNewFile *.vroom set ft=vroom
-au BufNewFile *.jsx 0r $HOME/.vim/templates/jsx
-au BufNewFile *.js 0r $HOME/.vim/templates/js
+" au BufNewFile,BufRead *.gradle setf groovy
+" au BufRead,BufNewFile *.vroom set ft=vroom
+" au BufNewFile *.jsx 0r $HOME/.vim/templates/jsx
+" au BufNewFile *.js 0r $HOME/.vim/templates/js
 
 " prevent vim from adding that stupid empty line at the end of every file
 set noeol

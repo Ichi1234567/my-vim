@@ -24,15 +24,14 @@ vmap <leader>/ gc
 
 """""""""""""""""""""""""""""
 " ctrlp
+
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_types = ['fil', 'buf', 'mru']
 
-nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
-nmap <leader>l :CtrlPLine<cr>
-nmap <leader>b :CtrlPBuff<cr>
-nmap <leader>m :CtrlPBufTag<cr>
-nmap <leader>M :CtrlPBufTagAll<cr>
+" set custom ignore
+" set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+" set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 
 let g:ctrlp_clear_cache_on_exit = 1
 " ctrlp leaves stale caches behind if there is another vim process runnin
@@ -55,7 +54,7 @@ let g:ctrlp_open_multiple_files = 'vjr'
 let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
 
 " speed up ctrlp by ignore about git
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard --others']
 
 """""""""""""""""""""""""""""
 " set yankring
@@ -209,6 +208,14 @@ let g:syntastic_auto_loc_list=2
 let g:syntastic_check_on_wq=0
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
+
+"""""""""""""""""""""""""""""
+" typescript-vim
+let g:typescript_compiler_binary = 'tsc'
+let g:typescript_compiler_options = ''
+
+"""""""""""""""""""""""""""""
+" tsuquyomi
 
 """""""""""""""""""""""""""""
 " rainbow_parentheses.vim
