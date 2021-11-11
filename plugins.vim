@@ -261,6 +261,10 @@ let g:acp_behaviorUserDefinedMeets = 'acp#meetsForKeyword'
 let g:acp_behaviorUserDefinedFunction = 'syntaxcomplete#Complete'
 " }}}
 
+" because of outedated snipmate version
+" h: SnipMate-deprecate
+let g:snipMate = { 'snippet_version' : 1 }
+
 """""""""""""""""""""""""""""
 " MatchTagAlways
 let g:mta_filetypes = {
