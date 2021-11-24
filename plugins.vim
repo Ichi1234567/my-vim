@@ -175,6 +175,31 @@ set foldmethod=syntax
 let javascript_enable_domhtmlcss = 1
 
 """""""""""""""""""""""""""""
+" coc
+
+let g:coc_global_extensions = ['coc-jest', 'coc-json', 'coc-marketplace', 'coc-prettier', 'coc-styled-components', 'coc-tslint', 'coc-tslint-plugin', 'coc-tsserver', 'coc-webpack']
+
+" Remap keys for applying codeAction to the current line.
+nmap <leader>ac  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)
+
+" Use `[g` and `]g` to navigate diagnostics
+" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gsd :split<CR><Plug>(coc-definition)
+nmap <silent> gvd :vsplit<CR><Plug>(coc-definition)
+" nmap <silent> gtd <Plug>(coc-type-definition)
+nmap <silent> gsi :split<CR><Plug>(coc-implementation)
+nmap <silent> gvi :vsplit<CR><Plug>(coc-implementation)
+nmap <silent> gsr :split<CR><Plug>(coc-references)
+nmap <silent> gvr :vsplit<CR><Plug>(coc-references)
+
+"""""""""""""""""""""""""""""
 " vim-jsx
 let g:jsx_pragma_required = 0
 

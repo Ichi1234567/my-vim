@@ -59,6 +59,7 @@ Plugin 'airblade/vim-gitgutter'
 
 
 " syntax support
+Plugin 'neoclide/coc.nvim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'Puppet-Syntax-Highlighting'
