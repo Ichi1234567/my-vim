@@ -21,41 +21,25 @@ nmap <leader>i :NERDTreeFind<CR>
 nmap <leader>/ gcc
 vmap <leader>/ gc
 
-
 """""""""""""""""""""""""""""
-" ctrlp
+" fzf
 
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_types = ['fil', 'buf', 'mru']
+" Preview window on the down side of the window with 40% height,
+" hidden by default, ctrl-/ to toggle
+" let g:fzf_preview_window = ['down:40%:hidden', 'ctrl-/']
+let g:fzf_layout = { 'down': '~40%' }
 
-" set custom ignore
-" set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
-" set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+let g:fzf_history_dir = '~/.local/share/fzf-history'
 
-let g:ctrlp_clear_cache_on_exit = 1
-" ctrlp leaves stale caches behind if there is another vim process runnin
-" which didn't use ctrlp. so we clear all caches on each new vim invocation
-cal ctrlp#clra()
-
-let g:ctrlp_max_height = 40
-
-" show on top
-"let g:ctrlp_match_window_bottom = 0
-"let g:ctrlp_match_window_reversed = 0
-
-" jump to buffer in the same tab if already open
-let g:ctrlp_switch_buffer = 1
-
-" open multiple files with <c-z> to mark and <c-o> to open. v - opening in
-" vertical splits; j - jump to first open buffer; r - open first in current buffer
-let g:ctrlp_open_multiple_files = 'vjr'
-
-let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
-
-" speed up ctrlp by ignore about git
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard --others']
-
+nmap <leader>fl :Lines
+nmap <leader>fm :Marks
+" nmap <leader>fb :BLines
+nmap <C-P> :Files<CR>
+" nmap <leader>fg :GFiles
+" nmap <leader>f? :GFiles?
+" nmap <leader>ft :Tags<cr>
+" nmap <leader>fa :Ag
+" nmap <leader>fc :Commits
 """""""""""""""""""""""""""""
 " set yankring
 let g:yankring_replace_n_pkey = '<leader>['

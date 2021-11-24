@@ -21,7 +21,9 @@ Plugin 'scrooloose/nerdtree'
 " file tree and tabs interaction
 Plugin 'jistr/vim-nerdtree-tabs'
 " fuzzy file open
-Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 " Plugin 'Shougo/unite.vim'
 " yank history
 Plugin 'YankRing.vim'
