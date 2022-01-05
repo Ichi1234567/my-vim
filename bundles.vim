@@ -70,8 +70,6 @@ Plugin 'tpope/vim-markdown'
 Plugin 'nono/vim-handlebars'
 Plugin 'juvenn/mustache.vim'
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'vitaly/vim-syntastic-coffee'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/es.next.syntax.vim'
 Plugin 'othree/yajs.vim'
@@ -110,7 +108,7 @@ Plugin 'othree/html5.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'myhere/vim-nodejs-complete'
 " autocomplete, tabnine
-Plugin 'zxqfl/tabnine-vim'
+" Plugin 'zxqfl/tabnine-vim'
 " for json
 Plugin 'Quramy/vison'
 " for html
@@ -122,9 +120,6 @@ Plugin 'ruby-matchit'
 Plugin 'rking/ag.vim'
 " related easymotion
 Plugin 't9md/vim-smalls'
-" Plugin 'wincent/ferret'
-" tagbar
-" brew install ctags-exuberant
 Plugin 'majutsushi/tagbar'
 
 
@@ -146,8 +141,6 @@ Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
 Plugin 'nelstrom/vim-textobj-rubyblock'
-" ruby refactoring
-Plugin 'ecomba/vim-ruby-refactoring'
 " apidock.com docs integration
 Plugin 'apidock.vim'
 " toggle ruby blocks style
