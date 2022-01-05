@@ -38,7 +38,7 @@ nmap <C-P> :Files<CR>
 " nmap <leader>fg :GFiles
 " nmap <leader>f? :GFiles?
 " nmap <leader>ft :Tags<cr>
-" nmap <leader>fa :Ag
+nmap <leader>fa :Ag<space>
 " nmap <leader>fc :Commits
 """""""""""""""""""""""""""""
 " set yankring
@@ -287,7 +287,7 @@ let g:mta_filetypes = {
 
 """""""""""""""""""""""""""""
 " set ag
-nmap <leader>a :Ag<space>
+" nmap <leader>a :Ag<space>
 
 """""""""""""""""""""""""""""
 " set vim-smalls
